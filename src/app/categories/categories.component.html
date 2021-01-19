@@ -1,0 +1,11 @@
+<!-- Widget [Categories Widget]-->
+<div class="widget categories">
+    <header>
+        <h3 class="h6">Categories</h3>
+    </header>
+    <div *ngFor="let category of categories" class="item d-flex justify-content-between">
+        <a routerLink>{{ category.cat }}</a>
+        <span>{{ category.num }}</span>
+    </div>
+</div>
+      
